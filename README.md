@@ -1,6 +1,6 @@
  # Scrap-LangGraph
 
- Developer Tools Research Agent that combines LangGraph, Gemini, and Firecrawl to discover, scrape, and summarize developer tooling for a given query. It runs as an interactive CLI that extracts likely tools from web articles, fetches official pages, analyzes developer-focused details (pricing, APIs, language support, integrations), and then produces concise recommendations.
+Developer Tools Research Agent that combines LangGraph, Gemini, and Firecrawl to discover, scrape, and summarize developer tooling for a given query. It runs as an interactive CLI that extracts likely tools from web articles and fetches their official pages. The agent analyzes developer-focused details (pricing, APIs, language support, integrations) and produces concise recommendations.
 
  ## How it works
  1. **Extract tools from articles** – Firecrawl searches comparison articles and the LLM pulls out tool names.
